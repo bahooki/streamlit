@@ -252,7 +252,7 @@ if Nash:
         st.write(data)
 
 
-    hour_to_filter = st.slider(label="Pick-up Hour", min_value=0, max_value=24)
+    hour_to_filter = st.slider(label="Pick-up Hour", min_value=0, max_value=23)
     filtered_data = data[data[DATE_COLUMN].dt.hour == hour_to_filter]
     st.subheader(f'Map of all pickups at {hour_to_filter}:00')
     #st.map(filtered_data)
