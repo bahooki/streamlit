@@ -11,7 +11,6 @@ streamlit = "*"
 altair = "*"
 pydeck = "*"
 numpy = "*"
-sqlite3 = "*"
 [dev-packages]
 
 [requires]
