@@ -1,0 +1,10 @@
+streamlit
+PIL
+pandas
+plotly.express
+matplotlib.pyplot
+streamlit
+pandas
+altair
+pydeck
+numpy
